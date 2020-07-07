@@ -1,5 +1,7 @@
 # LabelledOpart
 
+Link to paper: (https://arxiv.org/abs/2006.13967)
+
 An implementation for change point detection of labelled time-series data. This package provides a `labelled_opart_gaussian` interface to fits an optimal segmentation model given the data vector, labelled regions(data frame with 3 columns indicating start, end and number of change points in a labelled region sorted by start) and a non-negative penalty value. It outputs 2 vectors, `cost.vec` and `end.vec` indicating the cost values and segment ends of the optimal model respectively.
 
 
